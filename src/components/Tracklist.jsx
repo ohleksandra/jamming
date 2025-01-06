@@ -1,7 +1,7 @@
 import React from "react";
 import Track from "./Track";
 
-const SearchResults = ({ tracks, onAddToPlaylist }) => {
+const TrackList = ({ tracks, onAddToPlaylist }) => {
   return (
     <div>
       {tracks.map((track) => (
@@ -11,4 +11,4 @@ const SearchResults = ({ tracks, onAddToPlaylist }) => {
   );
 };
 
-export default SearchResults;
+export default TrackList;

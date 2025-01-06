@@ -1,12 +1,13 @@
 import React from "react";
 
 const Track = ({ track, onAddToPlaylist }) => {
+  console.log(track.albumCover)
   return (
-    <div className="w-full h-full flex flex-row items-center p-2 gap-2 hover:bg-gray-700 rounded-md">
+    <div className="w-full h-full flex flex-row items-center p-2 gap-2 hover:bg-gray-700 rounded-xl">
       <img
         alt={track.album}
         src={track.albumCover}
-        className="rounded-lg w-16 h-16"
+        className="rounded-xl w-16 h-16"
       ></img>
       <div className="flex flex-col flex-4 w-full">
         <h4 className="text-lg text-gray-50 ">{track.title}</h4>
