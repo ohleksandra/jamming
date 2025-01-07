@@ -1,5 +1,5 @@
 const clientId = 'fca46e1cd36149c9a578c1db4b5b76f8'; // Insert client ID here.
-const redirectUri = 'http://localhost:3000/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://marvelous-shortbread-a1988e.netlify.app/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
